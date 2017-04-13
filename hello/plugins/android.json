@@ -1,0 +1,18 @@
+{
+    "prepare_queue": {
+        "installed": [],
+        "uninstalled": []
+    },
+    "config_munge": {
+        "files": {}
+    },
+    "installed_plugins": {
+        "com.example.hello": {
+            "PACKAGE_NAME": "com.example.helloapp"
+        },
+        "cordova-plugin-whitelist": {
+            "PACKAGE_NAME": "com.example.helloapp"
+        }
+    },
+    "dependent_plugins": {}
+}
