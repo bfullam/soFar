@@ -52,12 +52,12 @@ angular.module('starter.services', [])
 // .factory('testPlug', function() {
 //   // Might use a resource here that returns a JSON array
 
-//   return {
-//     test: function() {
-//       return chats;
-//     }
-//       return null;
-//     }
-//   };
+//   // return {
+//   //   test: function() {
+//   //     console.log("sent it");
+//   //   }
+//   //     return null;
+//   //   }
+//   // };
 // });
 

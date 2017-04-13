@@ -20,7 +20,11 @@
     "cordova-plugin-whitelist",
     "cordova-plugin-splashscreen",
     "cordova-plugin-statusbar",
-    "ionic-plugin-keyboard"
+    "ionic-plugin-keyboard",
+    {
+      "locator": "/Users/bryanfullam/desktop/myApp2/customPlugins/cordova-plugin-hello-world",
+      "id": "cordova-plugin-hello-world"
+    }
   ],
   "cordovaPlatforms": [
     "android"

@@ -25,7 +25,15 @@ angular.module('starter.controllers', [])
   $scope.settings = {
     enableFriends: true
   };
-  $scope.sendIt = function() {
-    console.log("sending it");
+  $scope.test = function() {
+    console.log('controller connected correctly');
+    for (var x in window.cordova.plugins.helloWorld) console.log(x);
+      window.cordova.plugins.helloWorld.coolMethod("", function () {
+        console.log("Successful");
+        for (var x in arguments) console.log(arguments[x]);
+      }, function () {
+        console.log("failed");
+        for (var x in arguments) console.log(arguments[x]);
+      })
   }
 });
